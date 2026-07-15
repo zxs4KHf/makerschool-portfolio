@@ -9,9 +9,6 @@
 本项目的详细进展、个人总结、技术思考及图文展示均已整合至静态网页中。  
 👉 **强烈建议您点击以下链接，直接浏览排版精美的在线 HTML 网页日志：**  
 [点击这里查看 HTML Weblog 在线网页](https://zxs4KHf.github.io/makerschool-portfolio/)
-
-*(如果您将此仓库导入至 Gitee 并开启了 Gitee Pages 服务，网页日志即可在线访问。)*
-
 ---
 
 ## 📂 仓库结构说明
