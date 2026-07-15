@@ -18,6 +18,7 @@
         <p style="margin-top: 0.5rem; font-size: 0.9rem;">所有源码与资料已开源托管，点击对应模块即可查看 GitHub/Gitee 仓库源码</p>
         
         <div class="nav-links">
+            <a href="#about-me">个人介绍</a>
             <a href="#assignment-2">3D文创设计</a>
             <a href="#assignment-3">ESP32控制</a>
             <a href="#assignment-4">AI硬件设计</a>
@@ -25,10 +26,18 @@
             <a href="#assignment-6">榫卯结构</a>
             <a href="#mid-term">中期项目</a>
             <a href="#final-project">期末黑客松</a>
+            <a href="#course-summary">总结与思考</a>
         </div>
     </header>
 
     <div class="container">
+        
+        <!-- About Me -->
+        <section id="about-me">
+            <h2><span class="tag">Profile</span> 个人介绍</h2>
+            <p>你好！我是<strong>郑洗尘</strong>，西南交通大学计算机科学技术专业（第二学位）本科生，学号 2025120465。</p>
+            <p>我对软硬件结合、机器人控制以及创客文化有着浓厚的兴趣。在本学期的《从代码到实物》课程期间，我不仅在校内完成了前期的基础训练（包括 3D 打印与 PCB 设计的基础概念），还有幸前往校外科技企业进行了一段深度的机器人研发实习。这本 HTML Weblog 记录了我在课程与实习期间，关于跨越“数字代码”与“物理实物”鸿沟的探索与实践。</p>
+        </section>
         
         <!-- Assignment 2 -->
         <section id="assignment-2">
@@ -188,6 +197,7 @@ void loop() {
         <!-- Mid Term Project -->
         <section id="mid-term">
             <h2><span class="tag">中期项目</span> 基于 ESP32S2 的智能桌面时钟信息终端</h2>
+            <p><strong>团队介绍：</strong> 郑洗尘（独立完成。因在外实习未能组队，故单人承担全栈设计任务）</p>
             <p><strong>项目边界：</strong> 融合了 3D 打印外壳设计、OLED 显示驱动、以及 ESP32 嵌入式计算。</p>
             <p><strong>注意：</strong> 受限于实习时间冲突，本项目未能在实验室完成 3D 打印与焊接组装，仅提交了**软件系统源码**与**产品结构概念图**。</p>
 
@@ -237,6 +247,7 @@ void loop() {
         <!-- Final Project -->
         <section id="final-project">
             <h2><span class="tag">期末黑客松项目</span> UR5与六自由度灵巧手的自适应抓取系统</h2>
+            <p><strong>团队介绍：</strong> 郑洗尘（独立完成。本方案由我在实习单位的真实研发场景中沉淀与抽象而来，导师指导，个人主导开发）</p>
             <p><strong>项目摘要：</strong> 结合在校外企业实习期间的技术积累，本团队设计了一个“成功率优先、工程可落地”的机械臂灵巧手抓取架构。摒弃纯强化学习的黑盒，采用**视觉候选生成 + 手型 Synergy 适配 + 电流力控兜底**的混合架构。</p>
 
             <h3>系统核心运行逻辑架构</h3>
@@ -317,6 +328,18 @@ class GraspingPipeline:
         return False
             </code></pre>
             <a class="btn-link" href="Final_UR5_Grasping/" target="_blank">📂 访问 GitHub/Gitee 仓库查看完整系统代码</a>
+        </section>
+        
+        <!-- Course Summary -->
+        <section id="course-summary">
+            <h2><span class="tag">Summary</span> 课程总结与思考</h2>
+            <p>《从代码到实物：造你所想》这门课不仅仅是教授工具的使用，更重要的是传达了“从比特到原子”的创客理念。虽然因为校外实习的原因，我错过了学校里很多有趣的动手焊接与实物组装环节，但在实习岗位上，我面对了真正工业级的“代码到实物”的挑战——从写在 Python 脚本里的算法，到 UR5 机械臂和灵巧手的实际抓取动作。</p>
+            <p><strong>主要的收获与感悟：</strong></p>
+            <ul>
+                <li><strong>容错与兜底机制比理想情况更重要。</strong> 在纯软件环境中，代码是确定性的；但在物理世界里，光照、摩擦力、机械公差都会带来误差。我的期末项目中设计的三次递进力控兜底机制，就是在此种痛点下被倒逼出来的设计。</li>
+                <li><strong>Git 与文档是工程的灵魂。</strong> 无论是本课程要求的 HTML Weblog，还是企业级的研发流程，良好的版本控制（Git）与结构化的文档不仅方便了协同，更是自我思维梳理的利器。</li>
+            </ul>
+            <p>虽然这门课以这样一种略带遗憾（未能亲手在实验室打磨所有实物）的方式收尾，但它真正在我心中种下了软硬结合的种子。我所提交的这些代码与设计，是我在计算机科学学习道路上的一次重要跨越。</p>
         </section>
         
         <footer>
