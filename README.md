@@ -8,7 +8,7 @@
 ## 🌐 访问网页日志 (HTML Weblog)
 本项目的详细进展、个人总结、技术思考及图文展示均已整合至静态网页中。  
 👉 **强烈建议您点击以下链接，直接浏览排版精美的在线 HTML 网页日志：**  
-- [🌍 Gitee Pages 在线网页访问入口](https://ZEX5.gitee.io/makerschool-portfolio/) *(国内访问更流畅)*
+- [⚡ Vercel 极速部署访问入口](https://makerschool-portfolio-self.vercel.app/) *(国内访问极速畅通，推荐)*
 - [🐙 GitHub Pages 在线网页访问入口](https://zxs4KHf.github.io/makerschool-portfolio/)
 ---
 
